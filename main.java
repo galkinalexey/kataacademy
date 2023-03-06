@@ -49,7 +49,7 @@ public class Main {
             a = romanConst1.getNum();
             b = romanConst2.getNum();
             int res = (calc(a,b,sign));
-            if (res>1) {
+            if (res>0) {
                 for(RomanNum rn: RomanNum.values()){
                     if(rn.ordinal()==res-1) System.out.println(rn);
                 }
